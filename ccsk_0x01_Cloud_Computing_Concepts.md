@@ -14,3 +14,12 @@ The servers, networking, and storage pools exists at this layer. Security at thi
 The game-changing aspect of cloud. This layer to configure and manage a cloud deployment of any type. The single biggest thing to understand about the difference between cloud and traditional IT is the metastructure in your data center. It is within the metastructure logical layer that you buidl the virtual tools required for a virtual world (the cloud)..
 
 ### The Management Plane
+Configurations of management plane is done through a GUI, CLI or API calls, depending on what is available by the cloud provider. This is where to set up new users, implement zero trust networking etc.
+
+`Management plane` is part of the `Metastructure`
+
+## Infostructure
+This is where the information and data reside. This could be file storage, databases etc. Security in this layer don't really change from non-cloud, at least the principles of security.
+
+## Applistructure
+Applications and all of the services used to build and support them reside in Applistructure layer. This could be applications on a Windows or Linux server, or a wide variety of new technologies
