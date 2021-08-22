@@ -29,6 +29,8 @@ Applications and all of the services used to build and support them reside in Ap
 ## Essential Characteristics
 Essential characteristics are set to determine whether a service is really a 'cloud service' or not.
 
+Here's a reminder about the essential characteristics, and it's a big one for your exam. The five characteristics are from NIST (SP800-145). ISO/IEC 17788 calls out multitenancy as an additional essential characteristic. NIST includes multitenancy as part of resource pooling, and CSA states that clouds are multitenant by nature. Just remember that all three organizations see the cloud as a multitenant environment, but only ISO/IEC lists multitenancy separately.
+
 ### Broad Network Service
 There is no special requirement for direct physical connectivity or provider-supplied network connectivity. For example, you could manage an entire IaaS implementation via mobile phone browser.
 
@@ -39,8 +41,13 @@ The most powerful characteristics of the cloud. There are various ways of scalin
 3. Scale down: Important to have support to also, preferably automatically, scale down to avoid unnecessary costs
 
 ### Measured Service
+This is also called "utility computing" where you pay-as-you-go, and dont pay for idling resources.
+
 ### On-Demand Self-service
+Consumer are able to provision resources on their own, without a provider-side human intervention.
+
 ### Resource Pooling
+The most fundamental characteristics. NIST SP800-145 outlines multitenancy as an essential characteristics. Resources are pooled and consumers are granted access to the pool. Consumers access is isolated, typically on the vendor side by policies.
 
 ## Service Models
 ### Software as a Service - SaaS
