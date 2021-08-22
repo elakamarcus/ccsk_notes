@@ -27,8 +27,17 @@ Applications and all of the services used to build and support them reside in Ap
 # Cloud Computing Definitions
 
 ## Essential Characteristics
+Essential characteristics are set to determine whether a service is really a 'cloud service' or not.
+
 ### Broad Network Service
+There is no special requirement for direct physical connectivity or provider-supplied network connectivity. For example, you could manage an entire IaaS implementation via mobile phone browser.
+
 ### Rapid Elasticity
+The most powerful characteristics of the cloud. There are various ways of scaling the service:
+1. Scale up: add more computing power by adding CPU
+2. Scale out: add more servers, e.g., to handle more requests
+3. Scale down: Important to have support to also, preferably automatically, scale down to avoid unnecessary costs
+
 ### Measured Service
 ### On-Demand Self-service
 ### Resource Pooling
