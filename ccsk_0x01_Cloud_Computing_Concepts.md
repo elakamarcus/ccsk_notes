@@ -23,3 +23,22 @@ This is where the information and data reside. This could be file storage, datab
 
 ## Applistructure
 Applications and all of the services used to build and support them reside in Applistructure layer. This could be applications on a Windows or Linux server, or a wide variety of new technologies
+
+# Cloud Computing Definitions
+
+## Essential Characteristics
+### Broad Network Service
+### Rapid Elasticity
+### Measured Service
+### On-Demand Self-service
+### Resource Pooling
+
+## Service Models
+### Software as a Service - SaaS
+### Platform as a Service - PaaS
+### Infrastructure as a Service - IaaS
+
+## Deployment Models
+### Hybrid Cloud
+### Private Cloud
+### Public Cloud
