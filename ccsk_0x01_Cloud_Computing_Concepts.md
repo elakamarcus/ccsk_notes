@@ -29,7 +29,7 @@ Applications and all of the services used to build and support them reside in Ap
 ## Essential Characteristics
 Essential characteristics are set to determine whether a service is really a 'cloud service' or not.
 
-Here's a reminder about the essential characteristics, and it's a big one for your exam. The five characteristics are from NIST (SP800-145). ISO/IEC 17788 calls out multitenancy as an additional essential characteristic. NIST includes multitenancy as part of resource pooling, and CSA states that clouds are multitenant by nature. Just remember that all three organizations see the cloud as a multitenant environment, but only ISO/IEC lists multitenancy separately.
+The five characteristics are from NIST (SP800-145). ISO/IEC 17788 calls out multitenancy as an _additional_ essential characteristic. NIST includes multitenancy as part of resource pooling, and CSA states that clouds are multitenant by nature. Just remember that all three organizations see the cloud as a multitenant environment, but only ISO/IEC lists multitenancy separately.
 
 ### Broad Network Service
 There is no special requirement for direct physical connectivity or provider-supplied network connectivity. For example, you could manage an entire IaaS implementation via mobile phone browser.
