@@ -50,6 +50,8 @@ Consumer are able to provision resources on their own, without a provider-side h
 The most fundamental characteristics. NIST SP800-145 outlines multitenancy as an essential characteristics. Resources are pooled and consumers are granted access to the pool. Consumers access is isolated, typically on the vendor side by policies.
 
 ## Service Models
+The 'Service Model' is presented as a stack, known as SPI stack or tiers (SaaS, PaaS, IaaS) and is the reference architecture of NIST 500-292 (used by CSA) and ISO/IEC 17789. The Stack-representation is used to easier gain a high-level understanding of the service models.
+
 ### Software as a Service - SaaS
 ### Platform as a Service - PaaS
 ### Infrastructure as a Service - IaaS
